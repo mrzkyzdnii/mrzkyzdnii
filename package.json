@@ -1,13 +1,14 @@
 {
   "name": "brat",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "license": "MIT",
   "dependencies": {
+    "@sparticuz/chromium": "^131.0.0",
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "morgan": "^1.10.0",
-    "playwright": "^1.49.1"
+    "playwright-core": "^1.49.1"
   }
 }
